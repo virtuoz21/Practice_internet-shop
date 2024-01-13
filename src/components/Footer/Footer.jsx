@@ -16,9 +16,19 @@ const Footer = () => {
       <div className={styles.rights}>All rights reserved</div>
 
       <div className={styles.socials}>
-        <a href="https://www.instagram.com/virtuoz_21" target="_blank">
+        <a href="#!" target="_blank">
           <svg className="icon">
             <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#instagram`} />
+          </svg>
+        </a>
+        <a href="#!" target="_blank">
+          <svg className="icon">
+            <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#facebook`} />
+          </svg>
+        </a>
+        <a href="#!" target="_blank">
+          <svg className="icon">
+            <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#youtube`} />
           </svg>
         </a>
       </div>
