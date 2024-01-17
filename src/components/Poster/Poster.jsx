@@ -9,7 +9,7 @@ const Poster = () => {
       <div className={styles.product}>
         <div className={styles.text}>
           <div className={styles.subtitle}>The bestseller of 2023</div>
-          <h1 className={styles.head}>LENNON r2d2 with NVIDIA 5090TI</h1>
+          <h1 className={styles.head}>LENNON r2d2 with VIDIA 5090TI</h1>
           <button className={styles.button}>Buy now</button>
         </div>
         <div className={styles.image}>
